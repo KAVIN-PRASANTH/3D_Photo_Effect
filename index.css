@@ -1,0 +1,48 @@
+h1{
+    color:red;
+    text-transform: uppercase;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+    
+}
+.container{
+    width:360px;
+    height:190px;
+    background-color:rgba(0,0,0,0.1);
+    justify-items: center;
+    cursor: pointer;
+    margin-top:90px;
+    display: flex;
+    box-shadow: 10px 10px 80px 10px white ;
+    border-radius:50px;
+    background-color:bisque;
+    border: none;
+    transform: skewX(20deg);
+
+}
+ img{
+    position: absolute;
+    width:400px;
+    height: 200px;
+    transition:1.5s;
+    border-radius:50px;
+    
+}
+.container:hover img:nth-child(4){
+    transform:translate(200px,-100px);
+}
+.container:hover img:nth-child(3){
+    transform:translate(150px,-80px);
+    opacity:0.8;
+}
+.container:hover img:nth-child(2){
+    transform:translate(100px,-60px);
+    opacity:0.6;
+}
+.container:hover img:nth-child(1){
+    transform:translate(40px,-20px);
+    opacity:0.4;
+}
